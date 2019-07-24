@@ -7,7 +7,7 @@ case "$1" in
 	    DOCKERIMAGE=https://download.fedoraproject.org/pub/fedora/linux/releases/29/Container/aarch64/images/Fedora-Container-Base-29-1.2.aarch64.tar.xz
 	    ;;
         f30_arm64)
-	    DOCKERIMAGE=https://download.fedoraproject.org/pub/fedora/linux/releases/30/Container/aarch64/images/Fedora-Container-Base-30-1.2.aarch64.tar.xz
+	    DOCKERIMAGE=https://download.fedoraproject.org/pub/fedora/linux/releases/30/Container/aarch64/images/Fedora-Container-Base-30-1.2.x86_64.tar.xz
 	    ;;
 	uninstall)
 	    chmod -R 777 ~/fedora
